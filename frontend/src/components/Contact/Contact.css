@@ -1,0 +1,103 @@
+.contact .contact-bottom {
+  margin: 3rem 0;
+}
+
+.contact-bottom .contact-titles {
+
+  text-align: center;
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.contact-bottom .contact-titles h4 {
+  color: #e51414;
+  font-weight: 500;
+  display: flex;
+}
+
+.contact-bottom .contact-titles h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.contact-bottom .contact-titles p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.contact-bottom .contact-elements {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 100px;
+}
+
+.contact-bottom .contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-bottom .contact-form > div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(50% - 1rem);
+  font-size: 1.4rem;
+  row-gap: 0.4rem;
+}
+
+.contact-bottom .contact-form > div label span {
+  color: #e51414;
+}
+
+.contact-bottom .contact-form > div:nth-child(3),
+.contact-bottom .contact-form > div:nth-child(4) {
+  flex-basis: 100%;
+}
+
+.contact-bottom .contact-form .form-button {
+  background-color: black;
+  color: #fff;
+}
+
+.contact-elements .contact-info {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.contact-info-item {
+  font-size: 1.4rem;
+}
+
+.contact-info-item .contact-info-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info-item .contact-street {
+  margin: 1.5rem 0;
+}
+
+.contact-info-item .contact-date {
+  margin-top: 1rem;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .contact .contact-titles {
+    width: 100%;
+  }
+
+  .contact-elements {
+    flex-direction: column;
+    gap: 5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form {
+    flex-direction: column;
+  }
+}

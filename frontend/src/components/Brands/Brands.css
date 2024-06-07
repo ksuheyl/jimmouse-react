@@ -1,0 +1,31 @@
+.brands {
+  margin: 40px 0;
+}
+.brands img {
+  height: 5rem;
+  width: 5rem;
+}
+.brand-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid #dee0ea;
+  padding: 20px 20px;
+}
+
+.brand-list .brand-item {
+  opacity: 0.4;
+  transition: 0.2s ease opacity;
+}
+
+.brand-list .brand-item:hover {
+  opacity: 1;
+}
+
+/* responsive  */
+
+@media (max-width: 768px) {
+  .blogs .blog-list {
+    grid-template-columns: 1fr;
+  }
+}

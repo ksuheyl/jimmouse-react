@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Analogue Resin Strap",
+    "price": {
+      "oldPrice": 165.0,
+      "newPrice": 108.0
+    },
+    "discount": 22,
+    "img": {
+      "singleImage": "images/products/accessory/bag/bag (1).png",
+      "thumbs": [
+        "images/products/accessory/bag/bag (1).png",
+        "images/products/accessory/bag/bag (2).png",
+        "images/products/accessory/bag/bag (2).png"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ridley High Waist",
+    "price": {
+      "oldPrice": 208.0,
+      "newPrice": 100
+    },
+    "discount": 33,
+    "img": {
+      "singleImage": "images/products/women/crop/crop1.png",
+      "thumbs": [
+        "images/products/women/crop/crop1.png",
+        "images/products/women/crop/crop2.png",
+        "images/products/women/crop/crop2.png"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Blush Beanie",
+    "price": {
+      "oldPrice": 165.0,
+      "newPrice": 38.0
+    },
+    "discount": 90,
+    "img": {
+      "singleImage": "images/products/women/tayt/tayt1.png",
+      "thumbs": [
+        "images/products/women/tayt/tayt1.png",
+        "images/products/women/tayt/tayt2.png",
+        "images/products/women/tayt/tayt2.png"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mercury Tee",
+    "price": {
+      "oldPrice": 165.0,
+      "newPrice": 48.0
+    },
+    "discount": 40,
+    "img": {
+      "singleImage": "images/products/men/shorts/shorts (1).jpg",
+      "thumbs": [
+        "images/products/men/shorts/shorts (1).jpg",
+        "images/products/men/shorts/shorts (2).jpg",
+        "images/products/men/shorts/shorts (1).jpg"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "La Bohème Rose Gold",
+    "price": {
+      "oldPrice": 165.0,
+      "newPrice": 48.0
+    },
+    "discount": 40,
+    "img": {
+      "singleImage": "images/products/women/tayt/tayt1.png",
+      "thumbs": [
+        "images/products/women/tayt/tayt1.png",
+        "images/products/women/tayt/tayt2.png",
+        "images/products/women/tayt/tayt1.png"
+      ]
+    }
+  }
+]
